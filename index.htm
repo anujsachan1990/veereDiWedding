@@ -775,6 +775,77 @@
         <!-- end of important-people -->
 
 
+
+
+        <!-- start rsvp -->
+        <section class="rsvp section-padding parallax" data-bg-image="images/rsvp-bg.jpg" id="rsvp">
+            <div class="container">
+                <div class="row section-title">
+                    <div class="title-box">
+                        <div class="double-line double-line-top">
+                            <i class="fi flaticon-social"></i>
+                            <i class="fi flaticon-social"></i>
+                        </div>
+                        <h2>Are you comming</h2>
+                        <div class="double-line double-line-bottom"></div>
+                    </div>
+                </div> <!-- end of section-title -->
+
+                <div class="row content">
+                    <div class="col col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                        <div class="rsvp-form-wrapper">
+                            <div class="border-box">
+                                <i class="fi flaticon-clip-1 top-clip"></i>
+                                <i class="fi flaticon-clip-1 bottom-clip"></i>
+                                <div></div>
+                            </div>
+                            <h4>Please reserve <br>before November 1st, 2018</h4>
+                            <form id="rsvp-form" class="form form-inline" method="post">
+                                <div class="row">
+                                    <div class="form-group col col-sm-6">
+                                        <input type="text" class="form-control"  name="name" placeholder="Your Name" required>
+                                    </div>
+                                    <div class="form-group col col-sm-6">
+                                        <input type="email" class="form-control"  name="email" placeholder="Your Email" required>
+                                    </div>
+                                    <div class="form-group col col-sm-6">
+                                        <select name="guest" class="form-control">
+                                            <option disabled="disabled" selected>Number of Guest</option>
+                                            <option>1</option>
+                                            <option>2</option>
+                                            <option>3</option>
+                                            <option>4</option>
+                                        </select>
+                                    </div>
+                                    <div class="form-group col col-sm-6">
+                                        <select name="events" class="form-control">
+                                            <option disabled="disabled" selected>I am attending</option>
+                                            <option>Al events</option>
+                                            <option>Wedding ceremony</option>
+                                            <option>Reception party</option>
+                                        </select>
+                                    </div>      
+
+                                    <div class="form-group col col-sm-12">
+                                        <textarea name="notes" class="form-control" placeholder="Your Message" ></textarea>
+                                    </div>      
+
+                                    <div class="form-group col col-sm-12">
+                                        <button type="submit" class="btn btn-default theme-btn">Send invitation</button>
+                                        <span id="loader"><img src="images/rsvp-ajax-loader.gif" alt="Loader"></span>
+                                    </div>      
+                                    <div id="success">Thank you</div>
+                                    <div id="error"> Error occurred while sending email. Try again later. </div>
+                                </div>
+                            </form> <!-- end of form -->
+                        </div>
+                    </div>
+                </div>
+            </div> <!-- end of container -->
+        </section>
+        <!-- end of rsvp -->
+
+
         <!-- start gallery -->
         <section class="gallery section-padding parallax-flower" data-bg-image-top="images/big-flower.png"  data-bg-image-bottom="images/big-flower-bt.png" id="gallery">
             <div class="container">
@@ -914,76 +985,7 @@
             </div> <!-- end of container -->
         </section>
         <!-- end of gallery -->
-
-
-        <!-- start rsvp -->
-        <section class="rsvp section-padding parallax" data-bg-image="images/rsvp-bg.jpg" id="rsvp">
-            <div class="container">
-                <div class="row section-title">
-                    <div class="title-box">
-                        <div class="double-line double-line-top">
-                            <i class="fi flaticon-social"></i>
-                            <i class="fi flaticon-social"></i>
-                        </div>
-                        <h2>Are you comming</h2>
-                        <div class="double-line double-line-bottom"></div>
-                    </div>
-                </div> <!-- end of section-title -->
-
-                <div class="row content">
-                    <div class="col col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-                        <div class="rsvp-form-wrapper">
-                            <div class="border-box">
-                                <i class="fi flaticon-clip-1 top-clip"></i>
-                                <i class="fi flaticon-clip-1 bottom-clip"></i>
-                                <div></div>
-                            </div>
-                            <h4>Please reserve <br>before November 1st, 2018</h4>
-                            <form id="rsvp-form" class="form form-inline" method="post">
-                                <div class="row">
-                                    <div class="form-group col col-sm-6">
-                                        <input type="text" class="form-control"  name="name" placeholder="Your Name" required>
-                                    </div>
-                                    <div class="form-group col col-sm-6">
-                                        <input type="email" class="form-control"  name="email" placeholder="Your Email" required>
-                                    </div>
-                                    <div class="form-group col col-sm-6">
-                                        <select name="guest" class="form-control">
-                                            <option disabled="disabled" selected>Number of Guest</option>
-                                            <option>1</option>
-                                            <option>2</option>
-                                            <option>3</option>
-                                            <option>4</option>
-                                        </select>
-                                    </div>
-                                    <div class="form-group col col-sm-6">
-                                        <select name="events" class="form-control">
-                                            <option disabled="disabled" selected>I am attending</option>
-                                            <option>Al events</option>
-                                            <option>Wedding ceremony</option>
-                                            <option>Reception party</option>
-                                        </select>
-                                    </div>      
-
-                                    <div class="form-group col col-sm-12">
-                                        <textarea name="notes" class="form-control" placeholder="Your Message" ></textarea>
-                                    </div>      
-
-                                    <div class="form-group col col-sm-12">
-                                        <button type="submit" class="btn btn-default theme-btn">Send invitation</button>
-                                        <span id="loader"><img src="images/rsvp-ajax-loader.gif" alt="Loader"></span>
-                                    </div>      
-                                    <div id="success">Thank you</div>
-                                    <div id="error"> Error occurred while sending email. Try again later. </div>
-                                </div>
-                            </form> <!-- end of form -->
-                        </div>
-                    </div>
-                </div>
-            </div> <!-- end of container -->
-        </section>
-        <!-- end of rsvp -->
-
+        
         <!-- start footer -->
         <footer class="section-padding">
             <div class="container">
