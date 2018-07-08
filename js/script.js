@@ -451,8 +451,12 @@
     /*==========================================================================
         WHEN DOCUMENT LOADING 
     ==========================================================================*/
+         setTimeout(function(){
+                preloader();
+            },3000)
+     
         $(window).on('load', function() {
-            preloader();
+            // preloader();
 
             bgParallax();
 
