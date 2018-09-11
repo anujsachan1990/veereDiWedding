@@ -211,7 +211,7 @@
         var todaysDate = new Date();
 
         //From setting day + 1 year, 12-7= 5: month 0 base mean 5+1=  6 month, 30 day.
-        var marrigeDate = new Date(2018, 11, 23); 
+        var marrigeDate = new Date(2018, 10, 23); 
 
         $("#clock").countdown({
             until: marrigeDate
