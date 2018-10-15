@@ -358,7 +358,7 @@
     function map() {
 
         var locations = [
-            ['Hotel Bridge, Kanpur ', 22.8103888, 89.5619609,1],
+            ['ISHWAR KRIPA LAWN, AJAD NAGAR, KANPUR ', 26.5105401,80.2915111,1],
             ['kanpur', 22.820884, 89.551216,2],
         ];
 
