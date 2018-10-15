@@ -359,11 +359,10 @@
 
         var locations = [
             ['ISHWAR KRIPA LAWN, AJAD NAGAR, KANPUR ', 26.5105401,80.2915111,1],
-            ['kanpur', 22.820884, 89.551216,2],
         ];
 
         var map = new google.maps.Map(document.getElementById('map'), {
-            center: new google.maps.LatLng( 22.8103888, 89.5619609),
+            center: new google.maps.LatLng( 26.5105401,80.2915111),
             zoom: 12,
             scrollwheel: false,
             mapTypeId: google.maps.MapTypeId.ROADMAP
